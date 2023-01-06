@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/fragmentInicio">
+
+    <fragment
+        android:id="@+id/fragmentInicio"
+        android:name="com.example.appfirebase.inicio.FragmentInicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_fragmentInicio_to_fragmetAgregar"
+            app:destination="@id/fragmetAgregar" />
+        <action
+            android:id="@+id/action_fragmentInicio_to_fragmentEdit"
+            app:destination="@id/fragmentEdit" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmetAgregar"
+        android:name="com.example.appfirebase.crd.FragmentAgregar"
+        android:label="fragment_fragmet_agregar"
+        tools:layout="@layout/fragment_agregar" />
+    <fragment
+        android:id="@+id/fragmentEdit"
+        android:name="com.example.appfirebase.crd.FragmentEdit"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
+</navigation>

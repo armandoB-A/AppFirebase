@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306528051837",
+    "project_id": "appfiretore",
+    "storage_bucket": "appfiretore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306528051837:android:bc0ba73e8938ea97b0c714",
+        "android_client_info": {
+          "package_name": "com.example.appfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306528051837-eht8ktsajev2g8df86tugfhbq8gf11sd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfPM5SiHl0fciL0dnQGOMnTNoxmSfVW4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306528051837-eht8ktsajev2g8df86tugfhbq8gf11sd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

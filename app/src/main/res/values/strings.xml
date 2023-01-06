@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AppFirebase</string>
+    <string name="todo">TODO</string>
+
+    <string name="agregar_contacto">Agregar contacto</string>
+    <string name="salir">Salir</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="mail">Correo</string>
+    <string name="domicilio">Domicilio</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="regresar">Regresar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
